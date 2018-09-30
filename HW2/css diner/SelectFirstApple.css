@@ -1,0 +1,10 @@
+/* First of Type Selector
+Select the first element of a specific type
+:first-of-type
+Selects the first element of that type within another element.
+Examples
+span:first-of-type selects the first span in any element. */
+
+apple:first-of-type {
+/* Styles would go here. */
+}

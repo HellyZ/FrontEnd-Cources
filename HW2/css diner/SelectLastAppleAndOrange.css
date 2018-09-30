@@ -1,0 +1,13 @@
+/* Last of Type Selector
+Select the last element of a specific type
+:last-of-type
+Selects each last element of that type within another element. Remember type refers the kind of tag, so <p> and <span> are different types. 
+
+I wonder if this is how the last dinosaur was selected before it went extinct.
+Examples
+div:last-of-type selects the last <div> in every element.
+p span:last-of-type selects the last <span> in every <p>. */
+
+orange:last-of-type, apple:last-of-type {
+  /* Styles would go here. */
+}

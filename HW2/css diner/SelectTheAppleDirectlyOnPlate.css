@@ -1,0 +1,5 @@
+/* A > B selects all B that are a direct children A */
+
+plate > apple {
+  /* Styles would go here. */
+}

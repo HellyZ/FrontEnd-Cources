@@ -1,0 +1,11 @@
+/* Nth Child Pseudo-selector
+Select an element by its order in another element
+:nth-child(A)
+Selects the nth (Ex: 1st, 3rd, 12th etc.) child element in another element.
+Examples
+:nth-child(8) selects every element that is the 8th child of another element.
+div p:nth-child(2) selects the second p in every div */
+
+:nth-child(3) {
+  /* Styles would go here. */
+}

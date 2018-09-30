@@ -1,0 +1,10 @@
+/* 
+Nth-of-type Selector with Formula
+:nth-of-type(An+B)
+The nth-of-type formula selects every nth element, starting the count at a specific instance of that element.
+Examples
+span:nth-of-type(6n+2) selects every 6th instance of a span, starting from (and including) the second instance.
+ */
+:nth-of-type(2n+3) {
+  /* Styles would go here. */
+}

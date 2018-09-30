@@ -1,0 +1,7 @@
+/* Last Child Pseudo-selector
+:last-child selects all last-child elements.
+span:last-child selects all last-child span elements.
+ul li:last-child selects the last li elements inside of any ul. */
+#fancy:last-child, .small:last-child {
+/* Styles would go here. */
+}
