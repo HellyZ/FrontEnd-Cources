@@ -20,7 +20,6 @@ body {
 
 /* TOP DESTINATIONS  ADD YOUR BOAT items white color and hover */
 a {
-  /* -webkit-transition: all 170ms; */
   transition: all 170ms;
   text-decoration: none;
   color: inherit;
@@ -64,7 +63,7 @@ a:active {
 .container:before,
 .container:after {
   content: " ";
-  display: table;
+  display: block;
 }
 
 /* HEADER MAIN (not a section header)*/
@@ -116,10 +115,6 @@ a:active {
   }
 }
 
-/* ==========================================================*/
-
-
-/* SECTIONS */
 .section {
   margin-bottom: 80px;
 }
@@ -145,8 +140,6 @@ a:active {
   margin: 0;
 }
 
-
-/* -------- INTRO SECTION -------- */
 .hero-box {
   background-image: url("img/header-background-img.png");
   background-size: cover;
@@ -315,16 +308,6 @@ a:active {
   font-size: 0;
 }
 
-/* .gallery__boat img {
-  backface-visibility: hidden;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-  -webkit-transform: scale(1.045);
-  -ms-transform: scale(1.045);
-  transform: scale(1.045);
-  width: 100%;
-} */
-
 .gallery__boat .boats-qty {
   pointer-events: none;
   position: absolute;
@@ -343,8 +326,6 @@ a:active {
 }
 
 .gallery__boat .boats-qty::before {
-  /* content: "";
-  font-family: icomoon; */
   display: inline-block;
   margin-right: 10px;
   font-weight: 500;
@@ -358,26 +339,6 @@ a:active {
   left: 0;
   padding: 30px;
 }
-
-/* .gallery__boat .boat-details::before {
-  content: "";
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-  -webkit-transform: translate(0, 50%);
-  -ms-transform: translate(0, 50%);
-  transform: translate(0, 50%);
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  top: -15px;
-  opacity: 0.65;
-  background: linear-gradient(to bottom, transparent, #000); 
-}*/
-
 
 .gallery__boat .boat-location {
   -webkit-transition: all 250ms ease-in-out;
@@ -410,31 +371,6 @@ a:active {
   font-size: 20px;
 }
 
-/* HOVER TODO OR REMOVE*/
-/* .gallery__boat:hover .boat-details::before {
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-  visibility: visible;
-  opacity: 1;
-}
-
-.gallery__boat:hover .boat-location {
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-  visibility: visible;
-  opacity: 1;
-}
-
-.gallery__boat:hover img {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-} */
-
-/* BUTTONS */
-/* ----------------- 8. Buttons ----------------- */
 .btn {
   -webkit-transition: all 225ms ease-in-out;
   transition: all 225ms ease-in-out;
@@ -541,7 +477,7 @@ a:active {
 .galery-row:before,
 .galery-row:after {
   content: " ";
-  display: table;
+  display: block;
 }
 
 .gallery__box {
