@@ -1,260 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="reset.css">
-  <title>Nava-site</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Boats</title>
 </head>
-
 <body>
-  <header class="main-header">
-    <div class="container">
-      <div class="header-content">
-        <a href="#">
-          <img src="img/logo.png" alt="site identity" />
+  <div class="wrap">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header__container">
+        <a href="#" class="header__logo">
+          <img src="images/logo.png" alt="logo nava">
         </a>
-
-        <nav class="site-nav">
-          <ul class="clean-list site-links">
-            <li>
-              <a href="#top-destinations">Top Destinations</a>
-            </li>
-            <li>
-              <a href="#">Add your boat</a>
-            </li>
-          </ul>
-
-          <a href="#" class="btn btn-outlined">Sign up</a>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <!-- Main Content -->
-  <div class="content-box">
-    <!--LOGO SECTION -->
-    <section class="section section-hero">
-      <div class="hero-box">
-        <div class="container">
-          <div class="hero-text">
-            <h1>Reserve a boat now!</h1>
-            <p>and set your sails into paradise!</p>
-          </div>
-
-          <form class="destinations-form">
-            <div class="input-line">
-              <input type="text" name="destination" value="" class="form-input check-value" placeholder="WHAT IS YOUR DESTINATION, SAILOR?" />
-              <button type="button" name="destination-submit" class="form-submit btn btn-special">Find a boat</button>
-            </div>
-          </form>
+        <div class="header__nav">
+          <nav class="nav">
+            <a href="#" class="nav__link">top destination</a>
+            <a href="#" class="nav__link">add your boat</a>
+          </nav>
         </div>
       </div>
+    </header>
+    <!-- END of HEADER -->
 
-      <!-- STAT PANEL -->
+    <!-- INTRO SECTION -->
+    <section class="intro">
       <div class="container">
-        <div class="stat-panel">
-          <div class="stat__item">
-            <span class="value">2,300</span>
-            <p class="title">Destinations</p>
+        <div class="row">
+          <div class="intro__main col-10">
+            <h1 class="intro__title">RESERVE A BOAT NOW!</h1>
+            <p class="intro__subtitle">and set your sails into paradise!</p>
           </div>
-
-          <div class="stat__item">
-            <span class="value">1,000</span>
-            <p class="title">Cities</p>
-          </div>
-
-          <div class="stat__item">
-            <span class="value">35,000</span>
-            <p class="title">Boats</p>
-          </div>
-
-          <div class="stat__item">
-            <span class="value">50,000</span>
-            <p class="title">Sailors</p>
+          <div class="intro__form col-8">
+            <div class="form">
+              <input type="text" class="form__input">
+              <button class="btn btn--form">find a boat</button>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- END of INTRO SECTION -->
 
-    <!-- GALLERY SECTION -->
-    <section id="top-destinations" class="section section-destination">
-      <div class="section-title">
-        <div class="container">
-          <h2 class="title">Explore our top destinations</h2>
-          <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt
-            ut labore et</p>
-        </div>
-      </div>
-
-      <!-- Content -->
-      <div class="container">
-        <div class="galery-row">
-
-          <div class="gallery__box">
-            <div class="gallery__boat">
-              <div class="boat-cover">
-                <a href="#">
-                  <img src="img/gallery2-01.png" />
-                </a>
-              </div>
-
-              <span class="boats-qty">730</span>
-
-              <div class="boat-details">
-                <div class="boat-location">
-                  <h4 class="city">Figueira da Fox</h4>
-                  <p class="country">Portugal</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="gallery__box">
-            <div class="gallery__boat">
-              <div class="boat-cover">
-                <a href="#">
-                  <img src="img/gallery2-02.png" />
-                </a>
-              </div>
-
-              <span class="boats-qty">621</span>
-
-              <div class="boat-details">
-                <div class="boat-location">
-                  <h4 class="city">Ibiza</h4>
-                  <p class="country">Spain</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="gallery__box">
-            <div class="gallery__boat">
-              <div class="boat-cover">
-                <a href="#">
-                  <img src="img/gallery2-03.png" />
-                </a>
-              </div>
-
-              <span class="boats-qty">543</span>
-
-              <div class="boat-details">
-                <div class="boat-location">
-                  <h4 class="city">Palma de Mallorca</h4>
-                  <p class="country">Spain</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="gallery__box">
-            <div class="gallery__boat">
-              <div class="boat-cover">
-                <a href="#">
-                  <img src="img/gallery2-04.png" />
-                </a>
-              </div>
-
-              <span class="boats-qty">495</span>
-
-              <div class="boat-details">
-                <div class="boat-location">
-                  <h4 class="city">Portofino</h4>
-                  <p class="country">Italy</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="galery-row">
-
-          <div class="gallery__box">
-            <div class="gallery__boat">
-              <div class="boat-cover">
-                <a href="#">
-                  <img src="img/gallery2-04.png" />
-                </a>
-              </div>
-
-              <span class="boats-qty">495</span>
-
-              <div class="boat-details">
-                <div class="boat-location">
-                  <h4 class="city">Portofino</h4>
-                  <p class="country">Italy</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="gallery__box">
-            <div class="gallery__boat">
-              <div class="boat-cover">
-                <a href="#">
-                  <img src="img/gallery2-04.png" />
-                </a>
-              </div>
-
-              <span class="boats-qty">495</span>
-
-              <div class="boat-details">
-                <div class="boat-location">
-                  <h4 class="city">Portofino</h4>
-                  <p class="country">Italy</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="gallery__box">
-            <div class="gallery__boat">
-              <div class="boat-cover">
-                <a href="#">
-                  <img src="img/gallery2-04.png" />
-                </a>
-              </div>
-
-              <span class="boats-qty">495</span>
-
-              <div class="boat-details">
-                <div class="boat-location">
-                  <h4 class="city">Portofino</h4>
-                  <p class="country">Italy</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="gallery__box">
-            <div class="gallery__boat">
-              <div class="boat-cover">
-                <a href="#">
-                  <img src="img/gallery2-04.png" />
-                </a>
-              </div>
-
-              <span class="boats-qty">495</span>
-
-              <div class="boat-details">
-                <div class="boat-location">
-                  <h4 class="city">Portofino</h4>
-                  <p class="country">Italy</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="explore-btn">
-          <a href="#" class="btn btn-default btn-load-destination"><span class="text">Explore more destinations</span><i
-              class="icon-spinner6"></i></a>
-        </div>
-      </div>
-    </section>
   </div>
 </body>
-
 </html>
