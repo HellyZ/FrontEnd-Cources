@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 6px;
+  }
+
+  .hamburger {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card {
+    display: inline-block;
+    width: 45% !important;
+    margin-right: -4px;
+    height: 40rem;
+    position: relative;
+    padding: 3rem;
+  }
+
+  .card img {
+    display: block;
+    margin: 0 auto;
+    min-width: 100%;
+  }
+
+  .card h3 {
+    font-size: 3rem;
+  }
+
+  .mini-card-text,
+  .card-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 3rem;
+    width: 100%;
+    position: absolute;
+    bottom: 1rem;
+    line-height: 2;
+  }
+
+  .offer-text h3 {
+    margin-top: 3rem;
+  }
+
+  .card-header {
+    padding-left: 48rem;
+  }
+
+  .recomended-good img {
+    width: 6rem;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .resoulte-product {
+    display: block;
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .card {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .categories-header span {
+    font-size: 1rem;
+  }
+
+  .recomended {
+    padding-left: 4rem;
+
+  }
+}
+
+@media (max-width: 1020px) {
+  .card-header {
+    padding-left: 5rem;
+  }
+}
